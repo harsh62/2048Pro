@@ -110,7 +110,7 @@
     NSInteger row = [indexPath row];
     cell.titleLabel.text = [self.delegate labelForChildIndex:row underParentIndex:self.parentIndex];
     cell.iconImage.image = [self.delegate iconForChildIndex:row underParentIndex:self.parentIndex];
-    cell.selectionIndicatorImg.image = [self selectionIndicatorImgOrDefault];
+    //cell.selectionIndicatorImg.image = [self selectionIndicatorImgOrDefault];
     
     BOOL isRowSelected = [self.delegate isSelectedForChildIndex:row underParentIndex:self.parentIndex];
     
@@ -124,7 +124,7 @@
     [cell setCellForegroundColor:fgColor];
     [cell.titleLabel setFont:font];
     
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.selectionStyle = UITableViewCellSelectionStyleBlue;
     //cell.textLabel.textColor = [UIColor grayColor];
     cell.textLabel.font = [UIFont systemFontOfSize:16];
     //[cell setupDisplay];

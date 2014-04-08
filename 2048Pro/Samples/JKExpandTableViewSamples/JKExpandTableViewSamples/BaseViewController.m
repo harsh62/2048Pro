@@ -42,5 +42,6 @@
 	MVYSideMenuController *sideMenuController = [self sideMenuController];
 	if (sideMenuController) {
 		[sideMenuController openMenu];
-	}}
+	}
+}
 @end

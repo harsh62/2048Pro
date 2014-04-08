@@ -7,6 +7,7 @@
 //
 
 #import "SimpleExampleViewController.h"
+#import "MVYSideMenuController.h"
 
 @interface SimpleExampleViewController ()
 
@@ -40,53 +41,32 @@
 }
 
 - (void) initializeSampleDataModel {
-    self.dataModelArray = [[NSMutableArray alloc] initWithCapacity:3];
-    
-    NSMutableArray *parent0 = [NSMutableArray arrayWithObjects:
-                               [NSNumber numberWithBool:YES],
-                                [NSNumber numberWithBool:NO],
-                                [NSNumber numberWithBool:NO],
-                                nil];
-    NSMutableArray *parent1 = [NSMutableArray arrayWithObjects:
-                               [NSNumber numberWithBool:NO],
-                               [NSNumber numberWithBool:NO],
-                               [NSNumber numberWithBool:NO],
-                               nil];
-    NSMutableArray *parent2 = [NSMutableArray arrayWithObjects:
-                               [NSNumber numberWithBool:NO],
-                               [NSNumber numberWithBool:YES],
-                               nil];
-    NSMutableArray *parent3 = [NSMutableArray arrayWithObjects:
-                               [NSNumber numberWithBool:NO],
-                               [NSNumber numberWithBool:YES],
-                               [NSNumber numberWithBool:NO],
-                               nil];
-    [self.dataModelArray addObject:parent0];
-    [self.dataModelArray addObject:parent1];
-    [self.dataModelArray addObject:parent2];
-    [self.dataModelArray addObject:parent3];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"dataPropertyList" ofType:@"plist"];
+    self.dataModelArray = [[NSMutableArray alloc] initWithContentsOfFile:path];
+
 }
 
 #pragma mark - JKExpandTableViewDelegate
 // return YES if more than one child under this parent can be selected at the same time.  Otherwise, return NO.
 // it is permissible to have a mix of multi-selectables and non-multi-selectables.
 - (BOOL) shouldSupportMultipleSelectableChildrenAtParentIndex:(NSInteger) parentIndex {
-    if ((parentIndex % 2) == 0) {
-        return NO;
-    } else {
-        return YES;
-    }
+    return NO;
 }
 
 - (void) tableView:(UITableView *)tableView didSelectCellAtChildIndex:(NSInteger) childIndex withInParentCellIndex:(NSInteger) parentIndex {
-    [[self.dataModelArray objectAtIndex:parentIndex] setObject:[NSNumber numberWithBool:YES] atIndex:childIndex];
-    NSLog(@"data array: %@", self.dataModelArray);
+    //[[self.dataModelArray objectAtIndex:parentIndex] setObject:[NSNumber numberWithBool:YES] atIndex:childIndex];
+    //NSLog(@"data array: %@", self.dataModelArray);
+    
+    MVYSideMenuController *sideMenuController = [self sideMenuController];
+	if (sideMenuController) {
+		[sideMenuController closeMenu];
+	}
 }
 
-- (void) tableView:(UITableView *)tableView didDeselectCellAtChildIndex:(NSInteger) childIndex withInParentCellIndex:(NSInteger) parentIndex {
-    [[self.dataModelArray objectAtIndex:parentIndex] setObject:[NSNumber numberWithBool:NO] atIndex:childIndex];
-    NSLog(@"data array: %@", self.dataModelArray);
-}
+//- (void) tableView:(UITableView *)tableView didDeselectCellAtChildIndex:(NSInteger) childIndex withInParentCellIndex:(NSInteger) parentIndex {
+//    [[self.dataModelArray objectAtIndex:parentIndex] setObject:[NSNumber numberWithBool:NO] atIndex:childIndex];
+//    NSLog(@"data array: %@", self.dataModelArray);
+//}
 /*
 - (UIColor *) foregroundColor {
     return [UIColor darkTextColor];
@@ -97,11 +77,11 @@
 }
 */
 - (UIFont *) fontForParents {
-    return [UIFont fontWithName:@"American Typewriter" size:18];
+    return [UIFont fontWithName:@"American Typewriter" size:16];
 }
 
 - (UIFont *) fontForChildren {
-    return [UIFont fontWithName:@"American Typewriter" size:18];
+    return [UIFont fontWithName:@"American Typewriter" size:14];
 }
 
 /*
@@ -115,21 +95,21 @@
 }
 
 - (NSInteger) numberOfChildCellsUnderParentIndex:(NSInteger) parentIndex {
-    NSMutableArray *childArray = [self.dataModelArray objectAtIndex:parentIndex];
+    NSMutableArray *childArray = [[self.dataModelArray objectAtIndex:parentIndex] objectForKey:@"childrenName"];
     return [childArray count];
 }
 
 - (NSString *) labelForParentCellAtIndex:(NSInteger) parentIndex {
-    return [NSString stringWithFormat:@"parent %d", parentIndex];
+    return [[self.dataModelArray objectAtIndex:parentIndex] valueForKey:@"parentName"];
 }
 
 - (NSString *) labelForCellAtChildIndex:(NSInteger) childIndex withinParentCellIndex:(NSInteger) parentIndex {
-    return [NSString stringWithFormat:@"child %d of parent %d", childIndex, parentIndex];
+    return [[[self.dataModelArray objectAtIndex:parentIndex] objectForKey:@"childrenName" ] objectAtIndex:childIndex];
+
 }
 
 - (BOOL) shouldDisplaySelectedStateForCellAtChildIndex:(NSInteger) childIndex withinParentCellIndex:(NSInteger) parentIndex {
-    NSMutableArray *childArray = [self.dataModelArray objectAtIndex:parentIndex];
-    return [[childArray objectAtIndex:childIndex] boolValue];
+    return NO;
 }
 
 - (UIImage *) iconForParentCellAtIndex:(NSInteger) parentIndex {
@@ -137,13 +117,7 @@
 }
 
 - (UIImage *) iconForCellAtChildIndex:(NSInteger) childIndex withinParentCellIndex:(NSInteger) parentIndex {
-    if (((childIndex + parentIndex) % 3) == 0) {
-        return [UIImage imageNamed:@"heart"];
-    } else if ((childIndex % 2) == 0) {
-        return [UIImage imageNamed:@"cat"];
-    } else {
-        return [UIImage imageNamed:@"dog"];
-    }
+    return nil;
 }
 
 - (BOOL) shouldRotateIconForParentOnToggle {

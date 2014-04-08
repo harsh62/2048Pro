@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>1024</string>
+			<string>16384</string>
+			<string>2084</string>
+			<string>4096</string>
+			<string>8192</string>
+			<string>204 Infinity</string>
+		</array>
+		<key>parentName</key>
+		<string>2048 Classics</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>11</string>
+			<string>77147</string>
+			<string>1by1024</string>
+			<string>2048by2</string>
+			<string>Numberwang</string>
+		</array>
+		<key>parentName</key>
+		<string>Aesthetic Variants</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>2x2 Board</string>
+			<string>5x5 Board</string>
+		</array>
+		<key>parentName</key>
+		<string>Different Board Sizes</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+            <string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>2048 With Levels</string>
+			<string>Devil 2048</string>
+			<string>Evil 2048</string>
+			<string>Invisible</string>
+			<string>Speed in 2048</string>
+			<string>Troll with 2048</string>
+            <string>WTF is Happening?</string>
+		</array>
+		<key>parentName</key>
+		<string>Pro Versions</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>Anti 2048</string>
+			<string>Be the computer</string>
+			<string>Control the Game</string>
+			<string>Flappy 2048</string>
+			<string>Flappy Doge</string>
+			<string>Logarithmic Flappy</string>
+            <string>Numberwang Flappy</string>
+            <string>Reach Level 11</string>
+            <string>Tetris 2048</string>
+		</array>
+		<key>parentName</key>
+		<string>Game Modes</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+            <string>abc</string>
+        </array>
+		<key>childrenName</key>
+		<array>
+			<string>1597</string>
+			<string>Reverse 2048</string>
+			<string>Zen Mode</string>
+			<string>2048 Division</string>
+			<string>243</string>
+			<string>987</string>
+            <string>Calculate GCD</string>
+            <string>Get to Zero</string>
+            <string>Quantum 2048</string>
+            <string>Unrefined Merge</string>
+            <string>Zero Blocks</string>
+		</array>
+		<key>parentName</key>
+		<string>Merger Variants</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>Field 1024</string>
+			<string>Only 4's</string>
+			<string>Deterministic 2084</string>
+			<string>Get back to study</string>
+			<string>Larger than 2 and 4</string>
+			<string>Load and save</string>
+		</array>
+		<key>parentName</key>
+		<string>Spawn Changes</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+            <string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>2048-1D</string>
+			<string>2048-4D</string>
+			<string>Hexagonal 2048</string>
+			<string>Advanced 2048</string>
+			<string>2048 Cross</string>
+			<string>2048 Cross 2</string>
+            <string>Hexagonal 2048 2</string>
+		</array>
+		<key>parentName</key>
+		<string>Strange Boards</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+			<string>abc</string>
+
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>Dragon Ball Z</string>
+			<string>Doge 2048</string>
+			<string>Hexadecimal</string>
+			<string>Pokemon</string>
+			<string>U-Chicago</string>
+		</array>
+		<key>parentName</key>
+		<string>Everything Else in Boxes</string>
+	</dict>
+    <dict>
+		<key>pathOfFile</key>
+		<array>
+			<string>abc</string>
+			<string>abc</string>
+		</array>
+		<key>childrenName</key>
+		<array>
+			<string>Bench Mark Script</string>
+			<string>Crazy Script</string>
+		</array>
+		<key>parentName</key>
+		<string>Automated Scripts</string>
+	</dict>
+</array>
+
+</plist>
