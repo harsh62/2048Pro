@@ -8,6 +8,7 @@
 
 #import "SimpleExampleViewController.h"
 #import "MVYSideMenuController.h"
+#import "BaseViewController.h"
 
 @interface SimpleExampleViewController ()
 
@@ -57,10 +58,21 @@
     //[[self.dataModelArray objectAtIndex:parentIndex] setObject:[NSNumber numberWithBool:YES] atIndex:childIndex];
     //NSLog(@"data array: %@", self.dataModelArray);
     
+    
+    
     MVYSideMenuController *sideMenuController = [self sideMenuController];
 	if (sideMenuController) {
 		[sideMenuController closeMenu];
 	}
+    
+    NSString *stringOfPath = [[[self.dataModelArray objectAtIndex:parentIndex] objectForKey:@"pathOfFile" ] objectAtIndex:childIndex];
+    
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:@"slideMenuChildClicked"
+     object:stringOfPath];
+//    BaseViewController *baseController = [[BaseViewController alloc] init];
+//    [baseController sideMenuClosed:[[[self.dataModelArray objectAtIndex:parentIndex] objectForKey:@"pathOfFile" ] objectAtIndex:childIndex]];
+    
 }
 
 //- (void) tableView:(UITableView *)tableView didDeselectCellAtChildIndex:(NSInteger) childIndex withInParentCellIndex:(NSInteger) parentIndex {

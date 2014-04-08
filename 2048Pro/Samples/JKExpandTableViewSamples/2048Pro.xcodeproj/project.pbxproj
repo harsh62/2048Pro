@@ -13,6 +13,8 @@
 		98BD5F6A18F3E24F00CE19F2 /* BaseViewControllerPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BD5F6918F3E24F00CE19F2 /* BaseViewControllerPad.xib */; };
 		98BD5F7418F3EC5B00CE19F2 /* MVYSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD5F7118F3EC5B00CE19F2 /* MVYSideMenuController.m */; };
 		98BD5F7518F3EC5B00CE19F2 /* MVYSideMenuOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD5F7318F3EC5B00CE19F2 /* MVYSideMenuOptions.m */; };
+		98FC8A5E18F46DCE0046B21E /* 2048clones in Resources */ = {isa = PBXBuildFile; fileRef = 98FC8A5D18F46DCE0046B21E /* 2048clones */; };
+		98FC8A6018F46E5F0046B21E /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FC8A5F18F46E5F0046B21E /* circle.png */; };
 		B7C7C7D417A21C160046DDCE /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C7C7D317A21C160046DDCE /* cat.png */; };
 		B7C7C7D617A21C1F0046DDCE /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C7C7D517A21C1F0046DDCE /* heart.png */; };
 		B7D377F317A327400001F5BC /* SimpleExampleViewControllerPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D377F217A327400001F5BC /* SimpleExampleViewControllerPad.xib */; };
@@ -88,6 +90,8 @@
 		98BD5F7118F3EC5B00CE19F2 /* MVYSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYSideMenuController.m; sourceTree = "<group>"; };
 		98BD5F7218F3EC5B00CE19F2 /* MVYSideMenuOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYSideMenuOptions.h; sourceTree = "<group>"; };
 		98BD5F7318F3EC5B00CE19F2 /* MVYSideMenuOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVYSideMenuOptions.m; sourceTree = "<group>"; };
+		98FC8A5D18F46DCE0046B21E /* 2048clones */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 2048clones; sourceTree = SOURCE_ROOT; };
+		98FC8A5F18F46E5F0046B21E /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		B7C7C7D317A21C160046DDCE /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		B7C7C7D517A21C1F0046DDCE /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		B7D377F217A327400001F5BC /* SimpleExampleViewControllerPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleExampleViewControllerPad.xib; sourceTree = "<group>"; };
@@ -204,6 +208,7 @@
 		B7E3103017A0D9340049FD09 /* JKExpandTableViewSamples */ = {
 			isa = PBXGroup;
 			children = (
+				98FC8A5D18F46DCE0046B21E /* 2048clones */,
 				98B7264C18F3FA530093D787 /* dataPropertyList.plist */,
 				B7E3103917A0D9340049FD09 /* JKAppDelegate.h */,
 				B7E3103A17A0D9340049FD09 /* JKAppDelegate.m */,
@@ -298,6 +303,7 @@
 		B7E3108117A0D9E80049FD09 /* examples_img */ = {
 			isa = PBXGroup;
 			children = (
+				98FC8A5F18F46E5F0046B21E /* circle.png */,
 				B7E3108217A0D9E80049FD09 /* green_checkmark.png */,
 				B7D7223317A1DC8C005680A5 /* green_checkmark@2x.png */,
 				B7D7223417A1DC8C005680A5 /* smartphone.png */,
@@ -392,11 +398,13 @@
 				B7E3103F17A0D9340049FD09 /* Default@2x.png in Resources */,
 				B7E3104117A0D9340049FD09 /* Default-568h@2x.png in Resources */,
 				B7E3108317A0D9E80049FD09 /* green_checkmark.png in Resources */,
+				98FC8A5E18F46DCE0046B21E /* 2048clones in Resources */,
 				B7D7223517A1DC8C005680A5 /* green_checkmark@2x.png in Resources */,
 				B7D7223617A1DC8C005680A5 /* smartphone.png in Resources */,
 				B7C7C7D417A21C160046DDCE /* cat.png in Resources */,
 				B7C7C7D617A21C1F0046DDCE /* heart.png in Resources */,
 				98BD5F6618F3DB6E00CE19F2 /* BaseViewController.xib in Resources */,
+				98FC8A6018F46E5F0046B21E /* circle.png in Resources */,
 				B7D377F317A327400001F5BC /* SimpleExampleViewControllerPad.xib in Resources */,
 				B7FB1C9017A779C500078022 /* dog.png in Resources */,
 			);

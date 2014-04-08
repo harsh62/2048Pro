@@ -5,12 +5,12 @@
 	<dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/2048Classics/1024</string>
+			<string>2048clones/2048Classics/16384</string>
+			<string>2048clones/2048Classics/2048</string>
+			<string>2048clones/2048Classics/4096</string>
+			<string>2048clones/2048Classics/8192</string>
+			<string>2048clones/2048Classics/204Infinity</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -27,11 +27,11 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/AestheticVariants/11</string>
+			<string>2048clones/AestheticVariants/177147</string>
+			<string>2048clones/AestheticVariants/1by1024</string>
+			<string>2048clones/AestheticVariants/2048by2</string>
+			<string>2048clones/AestheticVariants/numberwang</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -47,8 +47,8 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/BiggerAndSmallerBoards/2x2Board</string>
+			<string>2048clones/BiggerAndSmallerBoards/5x5Board</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -61,13 +61,13 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-            <string>abc</string>
+			<string>2048clones/DifficultVersions/2048Levels</string>
+			<string>2048clones/DifficultVersions/Devils2048</string>
+			<string>2048clones/DifficultVersions/Evil2048</string>
+			<string>2048clones/DifficultVersions/Invisible</string>
+			<string>2048clones/DifficultVersions/speed2048</string>
+			<string>2048clones/DifficultVersions/troll2048</string>
+            <string>2048clones/DifficultVersions/wtfisHappening</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -85,15 +85,15 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
+			<string>2048clones/GameModes/anti2048</string>
+			<string>2048clones/GameModes/beTheComputer</string>
+			<string>2048clones/GameModes/controlTheGame</string>
+			<string>2048clones/GameModes/flappy2048</string>
+			<string>2048clones/GameModes/flappyDoge</string>
+			<string>2048clones/GameModes/logarithmicFlappy</string>
+            <string>2048clones/GameModes/numberwangFlappy</string>
+            <string>2048clones/GameModes/reachLevel11</string>
+            <string>2048clones/GameModes/tetris2048</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -113,17 +113,17 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
-            <string>abc</string>
+			<string>2048clones/MergerVariants/1597</string>
+			<string>2048clones/MergerVariants/2048Reverse</string>
+			<string>2048clones/MergerVariants/2048Zen</string>
+			<string>2048clones/MergerVariants/204Divide</string>
+			<string>2048clones/MergerVariants/243</string>
+			<string>2048clones/MergerVariants/987</string>
+            <string>2048clones/MergerVariants/CalculateGcd</string>
+            <string>2048clones/MergerVariants/getToZero</string>
+            <string>2048clones/MergerVariants/Quantum2048</string>
+            <string>2048clones/MergerVariants/UnrefinedMerge</string>
+            <string>2048clones/MergerVariants/ZeroBlock</string>
         </array>
 		<key>childrenName</key>
 		<array>
@@ -145,12 +145,12 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/SpawnChanges/1024Field</string>
+			<string>2048clones/SpawnChanges/4only</string>
+			<string>2048clones/SpawnChanges/deterministic2048</string>
+			<string>2048clones/SpawnChanges/GetBackToStudy</string>
+			<string>2048clones/SpawnChanges/largerThan2And4</string>
+			<string>2048clones/SpawnChanges/LoadAndSave</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -167,13 +167,13 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-            <string>abc</string>
+			<string>2048clones/strangeBoardVariants/1-dimensional</string>
+			<string>2048clones/strangeBoardVariants/2048-4D</string>
+			<string>2048clones/strangeBoardVariants/2ndhexagon</string>
+			<string>2048clones/strangeBoardVariants/advanced2048</string>
+			<string>2048clones/strangeBoardVariants/cross</string>
+			<string>2048clones/strangeBoardVariants/cross2</string>
+            <string>2048clones/strangeBoardVariants/hexagonal</string>
 		</array>
 		<key>childrenName</key>
 		<array>
@@ -191,11 +191,11 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/EverythingElseInBoxes/2048dbz-master</string>
+			<string>2048clones/EverythingElseInBoxes/doge2048</string>
+			<string>2048clones/EverythingElseInBoxes/hexadecimal</string>
+			<string>2048clones/EverythingElseInBoxes/pokemon</string>
+			<string>2048clones/EverythingElseInBoxes/uchicago</string>
 
 		</array>
 		<key>childrenName</key>
@@ -212,8 +212,8 @@
     <dict>
 		<key>pathOfFile</key>
 		<array>
-			<string>abc</string>
-			<string>abc</string>
+			<string>2048clones/AutomatedScripts/benchmarkScript</string>
+			<string>2048clones/AutomatedScripts/crazyScripting</string>
 		</array>
 		<key>childrenName</key>
 		<array>
