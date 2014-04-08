@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B7264D18F3FA530093D787 /* dataPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98B7264C18F3FA530093D787 /* dataPropertyList.plist */; };
 		98BD5F6518F3DB6E00CE19F2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD5F6318F3DB6E00CE19F2 /* BaseViewController.m */; };
 		98BD5F6618F3DB6E00CE19F2 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BD5F6418F3DB6E00CE19F2 /* BaseViewController.xib */; };
 		98BD5F6A18F3E24F00CE19F2 /* BaseViewControllerPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BD5F6918F3E24F00CE19F2 /* BaseViewControllerPad.xib */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98B7264C18F3FA530093D787 /* dataPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dataPropertyList.plist; path = ../dataPropertyList.plist; sourceTree = "<group>"; };
 		98BD5F6218F3DB6E00CE19F2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		98BD5F6318F3DB6E00CE19F2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		98BD5F6418F3DB6E00CE19F2 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 		B7E3103017A0D9340049FD09 /* JKExpandTableViewSamples */ = {
 			isa = PBXGroup;
 			children = (
+				98B7264C18F3FA530093D787 /* dataPropertyList.plist */,
 				B7E3103917A0D9340049FD09 /* JKAppDelegate.h */,
 				B7E3103A17A0D9340049FD09 /* JKAppDelegate.m */,
 				B7E3107C17A0D9DE0049FD09 /* SimpleExampleViewController.h */,
@@ -384,6 +387,7 @@
 				B7E3109717A0DB8B0049FD09 /* checkmark@2x.png in Resources */,
 				B7E3108717A0DB400049FD09 /* SimpleExampleViewController.xib in Resources */,
 				B7E3103517A0D9340049FD09 /* InfoPlist.strings in Resources */,
+				98B7264D18F3FA530093D787 /* dataPropertyList.plist in Resources */,
 				B7E3103D17A0D9340049FD09 /* Default.png in Resources */,
 				B7E3103F17A0D9340049FD09 /* Default@2x.png in Resources */,
 				B7E3104117A0D9340049FD09 /* Default-568h@2x.png in Resources */,
