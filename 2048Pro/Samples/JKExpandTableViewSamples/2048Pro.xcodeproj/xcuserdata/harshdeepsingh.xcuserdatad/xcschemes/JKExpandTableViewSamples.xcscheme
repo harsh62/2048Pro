@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7E3102617A0D9340049FD09"
-               BuildableName = "JKExpandTableViewSamples.app"
+               BuildableName = "2048Pro.app"
                BlueprintName = "2048Pro"
                ReferencedContainer = "container:2048Pro.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7E3104617A0D9340049FD09"
-               BuildableName = "JKExpandTableViewSamplesTests.octest"
+               BuildableName = "2048ProTests.octest"
                BlueprintName = "2048ProTests"
                ReferencedContainer = "container:2048Pro.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7E3102617A0D9340049FD09"
-            BuildableName = "JKExpandTableViewSamples.app"
+            BuildableName = "2048Pro.app"
             BlueprintName = "2048Pro"
             ReferencedContainer = "container:2048Pro.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7E3102617A0D9340049FD09"
-            BuildableName = "JKExpandTableViewSamples.app"
+            BuildableName = "2048Pro.app"
             BlueprintName = "2048Pro"
             ReferencedContainer = "container:2048Pro.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7E3102617A0D9340049FD09"
-            BuildableName = "JKExpandTableViewSamples.app"
+            BuildableName = "2048Pro.app"
             BlueprintName = "2048Pro"
             ReferencedContainer = "container:2048Pro.xcodeproj">
          </BuildableReference>

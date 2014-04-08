@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://jerryjiahaha.github.io/2048/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="./2048_files/main.css" rel="stylesheet" type="text/css">
+  <link href="./2048_files/my.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="http://jerryjiahaha.github.io/2048/favicon.ico">
+  <link rel="apple-touch-icon" href="http://jerryjiahaha.github.io/2048/meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta property="og:title" content="2048 game">
+  <meta property="og:site_name" content="2048 game">
+  <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!">
+  <meta property="og:image" content="http://jerryjiahaha.github.io/2048/meta/og_image.png">
+ 
+<!--  <script src="js/jquery.js"></script>  no longer needed-->
+  <script type="text/javascript" src="./2048_files/my.js"></script>
+
+</head>
+
+<body style="zoom: 1;">
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">56</div>
+      </div>
+    </div>
+    <br>
+    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p><br>
+    
+    <div class="command" id="datacuston" style="text-align:left; float:left;">
+      <span id="restartbutton" class="button"><a href="http://jerryjiahaha.github.io/2048/#restart">RESTART</a></span>
+    </div>
+    <div class="command" id="datacustom">
+      <span id="savebutton" class="button"><a href="http://jerryjiahaha.github.io/2048/#savedata">SAVE</a></span>
+      <span id="loadbutton" class="button"><a href="http://jerryjiahaha.github.io/2048/#loaddata">LOAD</a></span>
+      <span id="backbutton" class="button"><a href="http://jerryjiahaha.github.io/2048/#back">BACK</a></span>
+    </div>
+   
+
+    <div class="game-container" style="margin-top: 23px;">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-2 tile-position-2-2 tile-new"><div class="tile-inner">2</div></div><div class="tile tile-2 tile-position-3-3 tile-new"><div class="tile-inner">2</div></div></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+
+
+  <!-- 
+    <div class="sharing">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out 2048, a game where you join numbers to score high! #2048game" data-via="gabrielecirulli" data-url="http://git.io/2048" data-counturl="http://gabrielecirulli.github.io/2048/">Tweet</a>
+-->
+<!--      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+-->
+
+     
+
+    
+    </div>
+  
+
+  <script src="./2048_files/animframe_polyfill.js"></script>
+  <script src="./2048_files/keyboard_input_manager.js"></script>
+  <script src="./2048_files/html_actuator.js"></script>
+  <script src="./2048_files/grid.js"></script>
+  <script src="./2048_files/tile.js"></script>
+  <script src="./2048_files/local_score_manager.js"></script>
+  <script src="./2048_files/game_manager.js"></script>
+  <script src="./2048_files/application.js"></script>
+
+  
+
+
+</body></html>

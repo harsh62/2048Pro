@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://sztupy.github.io/2048-Hard/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>2048 - Hard</title>
+
+  <link href="./2048 - Hard_files/main.css" rel="stylesheet" type="text/css">
+  <link href="./2048 - Hard_files/ai.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="http://sztupy.github.io/2048-Hard/favicon.ico">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <meta property="og:title" content="2048 game">
+  <meta property="og:site_name" content="2048 game">
+  <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!">
+  <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png">
+</head>
+<body data-twttr-rendered="true" style="zoom: 1;">
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048 - Hard</h1>
+      <div class="score-container">0</div>
+    </div>
+    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+    <p class="game-intro">Note: this is not the original game, but one modified so the 2s and 4s appear in the worst place possible.</p>
+
+    <div class="controls">
+      <div id="hint-button-container">
+        <button id="hint-button" class="ai-button">Get Hint</button>
+      </div>
+      <div id="feedback-container"> </div>
+      <div id="run-button-container">
+        <button id="run-button" class="ai-button">Auto-run</button>
+      </div>
+    </div>
+    <div class="controls">
+      <div id="difficulty-container" class="ai-button">
+        <label>Difficulty:</label>
+        <select id="difficulty-selector">
+          <option value="0">Easy</option>
+          <option value="0.25">Medium</option>
+          <option value="0.5">Hard</option>
+          <option value="1" selected="">Impossible</option>
+        </select>
+        <label>Using:</label>
+        <select id="generation-selector">
+          <option value="1">2s only</option>
+          <option value="2" selected="">2s and 4s</option>
+          <option value="3">2s, 4s, 8s</option>
+          <option value="4">2s, 4s, 8s, 16s</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-8 tile-position-2-3">8</div><div class="tile tile-2 tile-position-2-4">2</div><div class="tile tile-8 tile-position-3-2">8</div><div class="tile tile-16 tile-position-3-3">16</div><div class="tile tile-4 tile-position-3-4">4</div><div class="tile tile-2 tile-position-4-2">2</div><div class="tile tile-8 tile-position-4-3">8</div><div class="tile tile-2 tile-position-4-4">2</div></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+    </p>
+    <p>
+    <strong>Difficulty settings</strong>:
+    </p><ul>
+      <li><strong>Easy</strong>: same as original game, new tiles are generated randomly
+      </li><li><strong>Medium</strong>: computer will place the new tile in an annoying place 25% of the time
+      </li><li><strong>Hard</strong>: computer will place the new tile in an annoying place 50% of the time
+      </li><li><strong>Impossible</strong>: computer will always place the tile in an annoying place.
+    </li></ul>
+    <p></p>
+    <p>
+    <strong>Using</strong>: this section will determine which values can be generated on the grid by the computer. The default is to generate both <strong>2s and 4s</strong>. Switch it to <strong>2s only</strong> if you want an easier game, or increase it for fun.
+    </p>
+
+  </div>
+
+  <script src="./2048 - Hard_files/animframe_polyfill.js"></script>
+  <script src="./2048 - Hard_files/hammer.min.js"></script>
+  <script src="./2048 - Hard_files/keyboard_input_manager.js"></script>
+  <script src="./2048 - Hard_files/html_actuator.js"></script>
+  <script src="./2048 - Hard_files/grid.js"></script>
+  <script src="./2048 - Hard_files/tile.js"></script>
+  <script src="./2048 - Hard_files/ai.js"></script>
+  <script src="./2048 - Hard_files/game_manager.js"></script>
+  <script src="./2048 - Hard_files/application.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-9404141-8', 'sztupy.github.io');
+    ga('send', 'pageview');
+  </script>
+
+
+</body></html>

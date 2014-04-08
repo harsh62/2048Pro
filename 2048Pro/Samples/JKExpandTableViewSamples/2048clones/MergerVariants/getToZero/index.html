@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://glyphobet.github.io/zero/ -->
+<html lang="en" manifest="cache.appcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>zero</title>
+
+  <link href="./zero_files/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="https://glyphobet.github.io/zero/favicon.ico">
+  <link rel="apple-touch-icon" href="https://glyphobet.github.io/zero/meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta property="og:title" content="zero game">
+  <meta property="og:site_name" content="zero game">
+  <meta property="og:description" content="Join the numbers and get to the zero tile! Careful: this game is extremely addictive!">
+  <meta property="og:image" content="http://glyphobet.github.io/zero/meta/og_image.png">
+</head>
+<body data-twttr-rendered="true" style="zoom: 1;">
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">zero</h1>
+      <div class="scores-container">
+        <div class="score-container">9<div class="score-addition">+1</div></div>
+        <div class="best-container">13</div>
+      </div>
+    </div>
+    <p class="game-intro">Join the numbers to eliminate all the tiles!</p>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-1 tile-position-2-2 tile-new"><div class="tile-inner">+1</div></div><div class="tile tile-1 tile-position-2-4"><div class="tile-inner">–1</div></div><div class="tile tile-1 tile-position-4-2"><div class="tile-inner">–1</div></div><div class="tile tile-2 tile-position-4-3"><div class="tile-inner">–2</div></div><div class="tile tile-4 tile-position-4-4"><div class="tile-inner">+4</div></div></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one.</strong>
+      But when two tiles with opposite values touch, they <strong>dissapear!</strong>
+    </p>
+  </div>
+
+  <script src="./zero_files/animframe_polyfill.js"></script>
+  <script src="./zero_files/keyboard_input_manager.js"></script>
+  <script src="./zero_files/html_actuator.js"></script>
+  <script src="./zero_files/grid.js"></script>
+  <script src="./zero_files/tile.js"></script>
+  <script src="./zero_files/local_score_manager.js"></script>
+  <script src="./zero_files/game_manager.js"></script>
+  <script src="./zero_files/application.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-49265897-1', 'glyphobet.github.io');
+    ga('send', 'pageview');  </script>
+
+
+</body></html>

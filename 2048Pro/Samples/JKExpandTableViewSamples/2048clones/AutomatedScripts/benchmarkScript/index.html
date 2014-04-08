@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://tagliala.github.io/2048-Bench/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>2048 Benchmark</title>
+
+  <link href="./2048 Benchmark_files/main.css" rel="stylesheet" type="text/css">
+  <link href="./2048 Benchmark_files/benchmark.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="http://tagliala.github.io/2048-Bench/favicon.ico">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <meta property="og:title" content="2048 game">
+  <meta property="og:site_name" content="2048 game">
+  <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!">
+
+</head>
+<body data-twttr-rendered="true" style="zoom: 1;">
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="score-container">3020<div class="score-addition">+4</div></div>
+    </div>
+    <p class="game-intro">Your browser will join the numbers and get to the <strong>2048 tile!</strong></p>
+
+    <div class="benchmark">
+      <button id="run-button" class="ai-button" type="button" data-text-run="Run Benchmark" data-text-stop="Stop">Stop</button>
+      <div id="benchmark-results"></div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"><div class="tile tile-2 tile-position-1-4 tile-new">2</div><div class="tile tile-2 tile-position-2-4">2</div><div class="tile tile-2 tile-position-2-4">2</div><div class="tile tile-4 tile-position-2-4 tile-merged">4</div><div class="tile tile-2 tile-position-3-2">2</div><div class="tile tile-32 tile-position-3-3">32</div><div class="tile tile-16 tile-position-3-4">16</div><div class="tile tile-64 tile-position-4-1">64</div><div class="tile tile-128 tile-position-4-2">128</div><div class="tile tile-256 tile-position-4-3">256</div><div class="tile tile-16 tile-position-4-4">16</div></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">This is just for fun and not for play.</strong><br>
+         </p>
+
+</div>
+
+
+  <script src="./2048 Benchmark_files/animframe_polyfill.js"></script>
+  <script src="./2048 Benchmark_files/hammer.min.js"></script>
+  <script src="./2048 Benchmark_files/keyboard_input_manager.js"></script>
+  <script src="./2048 Benchmark_files/html_actuator.js"></script>
+  <script src="./2048 Benchmark_files/grid.js"></script>
+  <script src="./2048 Benchmark_files/tile.js"></script>
+  <script src="./2048 Benchmark_files/ai.js"></script>
+  <script src="./2048 Benchmark_files/game_manager.js"></script>
+  <script src="./2048 Benchmark_files/application.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-43086940-2', 'tagliala.github.io');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</body></html>

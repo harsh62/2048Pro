@@ -1,0 +1,22 @@
+.benchmark {
+  text-align: center;
+}
+
+#run-button {
+  margin: 20px 0;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 3px;
+  font-size: 25px;
+  color: white;
+  background: #8f7a66;
+}
+
+#benchmark-results {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+#benchmark-user-agent {
+  font-size: 12px;
+}
