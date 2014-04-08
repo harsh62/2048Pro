@@ -33,7 +33,6 @@
              baseViewController =  [[BaseViewController alloc] initWithNibName:@"BaseViewController" bundle:nil];
        }
     
-    UINavigationController *contentNavigationController = [[UINavigationController alloc] initWithRootViewController:baseViewController];
 	MVYSideMenuOptions *options = [[MVYSideMenuOptions alloc] init];
 	options.contentViewScale = 1.0;
 	options.contentViewOpacity = 0.05;
@@ -41,8 +40,10 @@
 	MVYSideMenuController *sideMenuController = [[MVYSideMenuController alloc] initWithMenuViewController:tableController
 																					contentViewController:baseViewController
 																								  options:options];
-	//sideMenuController.menuFrame = CGRectMake(0, 0, 220.0, self.window.bounds.size.height - 64.0);
-    
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+
+	sideMenuController.menuFrame = CGRectMake(0, 0, self.window.bounds.size.width/2, self.window.bounds.size.height);
+    }
     
     
     
