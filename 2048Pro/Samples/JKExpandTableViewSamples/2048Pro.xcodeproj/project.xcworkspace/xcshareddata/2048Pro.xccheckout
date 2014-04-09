@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1583B0E2-E4AC-4A3E-B472-01D36D4CCFBE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>2048Pro</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3F74916-DE73-4992-A6B7-5BFA60C7CB81</key>
+		<string>https://github.com/harsh62/2048Pro</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/2048Pro/Samples/JKExpandTableViewSamples/2048Pro.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3F74916-DE73-4992-A6B7-5BFA60C7CB81</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E3F74916-DE73-4992-A6B7-5BFA60C7CB81</key>
+		<string>https://github.com/harsh62/2048Pro</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/harsh62/2048Pro/trunk/2048Pro/Samples/JKExpandTableViewSamples/2048Pro.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3F74916-DE73-4992-A6B7-5BFA60C7CB81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3F74916-DE73-4992-A6B7-5BFA60C7CB81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>2048Pro</string>
+		</dict>
+	</array>
+</dict>
+</plist>
